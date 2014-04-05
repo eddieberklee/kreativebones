@@ -1,0 +1,172 @@
+@font-face {
+	font-family: Dense;
+	src: url('dense.eot'); /* IE9 Compat Modes */
+    src: url('dense.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    	 url('dense.woff') format('woff'), /* Modern Browsers */
+		 url('dense.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('dense.svg#Dense') format('svg'), /* Legacy iOS */
+		 url('dense.otf') format("opentype");
+}
+
+.clear {
+	clear: both;
+}
+
+#container {
+	width: 700px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#header * {
+	font-family: "Wire One", sans-serif;
+	font-size: 1.7em;
+}
+
+#header #logo {
+	width: 240px;
+	float: left;
+	position: relative;
+	top: -3px;
+}
+
+#header .links {
+	width: 90px;
+	height: 35px;
+	float: right;
+	font-size: 0.75em;
+}
+#header .links span {
+	margin-right: 3px;
+	font-family: "Dense";
+	/* font-family: "Open Sans Condensed", sans-serif; */
+	line-height: 55px;
+	font-weight: 800;
+}
+#header .links:hover span {
+	border-bottom: 2px solid #E2903E;
+}
+#header .links:hover ~ .links span {
+	border-bottom: none;
+}
+#header .links.active span {
+	border-bottom: 2px solid #E2903E;
+}
+
+#header .links:last-of-type {
+	margin-left: 170px;
+}
+
+#pitch p {
+	font-family: "Open Sans";
+	font-size: 0.8em;
+	line-height: 9px;
+}
+
+#pitch p .larger {
+	font-size: 1.5em;
+}
+
+#pitch p b {
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+#pitch p .smaller {
+	font-size: 0.75em;
+}
+
+#pitch p:first-of-type {
+	margin-top: 35px;
+}
+
+.hr {
+	width: 640px;
+	margin-left: -2px;
+	margin-top: 5px;
+	margin-bottom: 13px;
+}
+
+.slideshow-container {
+	margin-bottom: 35px;
+}
+
+.slideshow-container .slideshow {
+	width: 475px;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+
+.slideshow-container .slideshow img {
+	width: 475px;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.slideshow-container .description {
+	width: 135px;
+	height: 100%;
+	font-family: "Open Sans", sans-serif;
+	float: right;
+	font-size: 0.65em;
+	margin-top: 15px;
+	margin-right: 60px;
+}
+
+.slideshow-container .description p {
+	margin: 0;
+	color: #444;
+	margin: 2px 0;
+}
+
+.slideshow-container .description b {
+	font-weight: 600;
+	font-size: 1.1em;
+}
+
+.more-inactive, .more-active {
+	width:  8px;
+	height: 8px;
+	border-radius: 4px;
+	float: left;
+	cursor: pointer;
+	margin-right: 8px;
+}
+.more-inactive:hover {
+	border: 1px solid #E86E32;
+	margin-left: -2px;
+	background-color: white;
+	border-radius: 5px;
+	position: relative;
+	top: -1px;
+}
+.more-inactive:active, .more-active:active {
+	top: 0px;
+}
+.more-inactive {
+	background-color: #E86E32;
+	border: none;
+}
+.more-active {
+	border: 1px solid #E86E32;
+	margin-left: -1px;
+	background-color: white;
+	border-radius: 6px;
+	position: relative;
+	top: -1px;
+}
+
+
+
+
+
+
+
+
+
+
+
